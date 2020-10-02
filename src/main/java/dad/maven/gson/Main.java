@@ -52,6 +52,7 @@ public class Main {
 		pedirDatos(_dato);
 		p.inicializar((String) _dato[0], (String) _dato[1], (Integer) _dato[2]);
 
+		System.out.println(p.toJSON());
 	}
 
 }

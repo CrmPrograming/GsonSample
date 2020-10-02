@@ -1,5 +1,8 @@
 package dad.maven.gson;
 
+import com.google.gson.Gson;
+import com.google.gson.GsonBuilder;
+
 public class Persona {
 	
 	private String nombre;
@@ -20,6 +23,16 @@ public class Persona {
 		setEdad(ed);
 	}
 	
+	public String toJSON() {
+		Gson gson = new GsonBuilder().setPrettyPrinting().create();
+		return (gson.toJson(this));
+	}
+	
+	@Override
+	public String toString() {
+		return "Persona [nombre=" + nombre + ", apellidos=" + apellidos + ", edad=" + edad + "]";
+	}
+
 	public String getNombre() {
 		return nombre;
 	}
