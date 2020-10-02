@@ -4,6 +4,12 @@ import java.util.Scanner;
 
 public class Main {
 
+	/**
+	 * Método encargado de pedir y al mismo tiempo validar los
+	 * datos de la persona.
+	 * 
+	 * @param _dato Array de objetos en el cual se almacenarán los datos
+	 */
 	public static void pedirDatos(Object[] _dato) {
 		Scanner in = new Scanner(System.in);
 		String dato;
@@ -43,6 +49,11 @@ public class Main {
 		in.close();
 	}
 
+	/**
+	 * Método principal de la práctica. Se encarga de iniciar la misma.
+	 * 
+	 * @param args Parámetros de entrada a la aplicación
+	 */
 	public static void main(String[] args) {
 		final int CANTIDAD_DATOS = 3;
 		Persona p = new Persona();
