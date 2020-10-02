@@ -1,4 +1,4 @@
-package dad.maven.gson;
+package dad.maven.gsonsample;
 
 import java.util.Scanner;
 
