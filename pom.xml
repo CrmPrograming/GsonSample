@@ -3,4 +3,13 @@
   <groupId>dad.maven.gson</groupId>
   <artifactId>GsonSample</artifactId>
   <version>0.0.1</version>
+  
+  <name>GsonSample</name>
+  <description>Hola Mundo en JavaFX incluyendo algunos aspectos básicos del framework.</description>
+
+	<properties>
+		<maven.compiler.target>11</maven.compiler.target>
+		<maven.compiler.source>11</maven.compiler.source>
+		<exec.mainClass>dad.maven.gsonsample.Main</exec.mainClass>
+	</properties>
 </project>
